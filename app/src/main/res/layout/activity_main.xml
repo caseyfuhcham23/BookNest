@@ -7,4 +7,43 @@
     android:layout_height="match_parent"
     android:layout_margin="10dp"
     android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewBookNest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="BookNest"
+        android:textAlignment="center"
+        android:textColor="#2A812D"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/books" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="50dp"
+        android:text="Dive into new literary treasures within the welcoming confines of BookNest."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonToSignIn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/green"
+        android:onClick="goToSignIn"
+        android:text="Get Started!"
+        app:cornerRadius="?android:attr/buttonCornerRadius" />
 </LinearLayout>
